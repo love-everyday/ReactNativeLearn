@@ -1,0 +1,56 @@
+PODS:
+  - React/ART (0.43.4):
+    - React/Core
+  - React/Core (0.43.4):
+    - React/cxxreact
+    - Yoga (= 0.43.4.React)
+  - React/cxxreact (0.43.4):
+    - React/jschelpers
+  - React/jschelpers (0.43.4)
+  - React/RCTActionSheet (0.43.4):
+    - React/Core
+  - React/RCTAnimation (0.43.4):
+    - React/Core
+  - React/RCTCameraRoll (0.43.4):
+    - React/Core
+    - React/RCTImage
+  - React/RCTImage (0.43.4):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.43.4):
+    - React/Core
+  - React/RCTNetwork (0.43.4):
+    - React/Core
+  - React/RCTPushNotification (0.43.4):
+    - React/Core
+  - React/RCTText (0.43.4):
+    - React/Core
+  - React/RCTWebSocket (0.43.4):
+    - React/Core
+  - Yoga (0.43.4.React)
+
+DEPENDENCIES:
+  - React/ART (from `../node_modules/react-native`)
+  - React/RCTActionSheet (from `../node_modules/react-native`)
+  - React/RCTAnimation (from `../node_modules/react-native`)
+  - React/RCTCameraRoll (from `../node_modules/react-native`)
+  - React/RCTImage (from `../node_modules/react-native`)
+  - React/RCTLinkingIOS (from `../node_modules/react-native`)
+  - React/RCTPushNotification (from `../node_modules/react-native`)
+  - React/RCTText (from `../node_modules/react-native`)
+  - React/RCTWebSocket (from `../node_modules/react-native`)
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  Yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga
+
+SPEC CHECKSUMS:
+  React: 607aa7eb8b0e44b102f95f43fd49dc8aedefa93f
+  Yoga: 2a70bc5ab41486a272b9fd5b76c482ba9268c5dd
+
+PODFILE CHECKSUM: 32ab6b5b70452e3b541ce261f8d0305c05312339
+
+COCOAPODS: 1.2.0
